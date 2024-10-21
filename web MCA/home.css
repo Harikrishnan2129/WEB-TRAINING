@@ -1,0 +1,130 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #101010; /* Dark background */
+    color: #ffffff; /* White text */
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #101010;
+}
+
+.navbar .logo {
+    display: flex;
+    color: #1abc9c;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 50px; /* Adjust logo size */
+    height: auto;
+    margin-right: 10px; /* Space between logo and text if you add any */
+}
+
+/* Nav Menu */
+.navbar nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Contact Button */
+.navbar .contact-btn {
+    background-color: #00E0B8; /* Green button */
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar .contact-btn:hover {
+    background-color: #00C6A1; /* Darker green on hover */
+}
+
+/* Main Section */
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.profile img {
+    width: 350px; /* Profile image size */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Shadow around image */
+}
+
+.intro {
+    max-width: 500px;
+}
+
+.intro h2 {
+    font-size: 24px;
+    color: #00E0B8; /* Green color for small heading */
+}
+
+.intro h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.intro h1 .highlight {
+    color: #00E0B8; /* Highlighted text in green */
+}
+
+.intro p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #cccccc; /* Lighter color for paragraph */
+}
+
+/* Footer Section */
+.footer {
+    background-color: #101010; /* Dark background */
+    padding: 60px 0; /* Smaller padding */
+    text-align: center; /* Center align text */
+    color: #7cccc1; /* Darker text to contrast with light background */
+    font-size: 14px; /* Smaller font size */
+}
+
+.footer h2 {
+    font-size: 20px; /* Smaller heading */
+    color: #82beb4; /* Darker text for contrast */
+    margin-bottom: 10px; /* Small space below */
+}
+
+.footer p {
+    margin: 10px 0; /* Minimal spacing */
+}
+
+.footer .copyright {
+    margin-top: 10px; /* Small space */
+}
+
+.footer .copyright a {
+    color: #0fe1b0; /* Darker link color */
+    text-decoration: none; /* No underline */
+}
